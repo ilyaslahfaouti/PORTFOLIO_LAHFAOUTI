@@ -61,12 +61,13 @@ export default function Intro() {
   initial={{ opacity: 0, y: 100 }}
   animate={{ opacity: 1, y: 0 }}
 >
-  <span className="font-bold text-white">Hi, I'm <span className="text-white-500">Ilyas</span> <span className="text-grey-500">Lahfaouti</span>.</span>
-  <span className="font-bold text-gradient">Your Full-Stack AI Innovator.</span>
+<span className="font-bold text-white">Salut, je suis <span className="text-white-500">Ilyas</span> <span className="text-grey-500">Lahfaouti</span>.</span>
+<span className="font-bold text-gradient">Votre DÉVELOPPEUR Full-Stack IA.</span>
 
-  <p className="italic mt-2 text-sm">
-    Crafting the future, one line of code at a time. With a love for blending creativity and technology, I create smart, seamless experiences that make a real impact.
-  </p>
+<p className="italic mt-2 text-sm">
+  Façonner l'avenir, une ligne de code à la fois. Avec une passion pour allier créativité et technologie, je crée des expériences intelligentes et fluides qui ont un réel impact.
+</p>
+
 </motion.h1>
 
 
