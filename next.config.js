@@ -1,14 +1,8 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: "export",
-  images: {
-    unoptimized: true,
-  },
-  basePath: "/PORTFOLIO",
-  assetPrefix: "/PORTFOLIO/",
+module.exports = {
   experimental: {
-    serverActions: false,
+    serverActions: true, // Activer les Server Actions
   },
+  output: 'export', // Exportation statique du projet
+  basePath: '/PORTFOLIO_LAHFAOUTI', // Remplacer par ton nom de projet sur GitHub
+  assetPrefix: '/PORTFOLIO_LAHFAOUTI', // Remplacer par ton nom de projet sur GitHub
 };
-
-module.exports = nextConfig;
